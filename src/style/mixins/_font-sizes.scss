@@ -1,0 +1,14 @@
+$font-sizes:
+  "14" 14px,
+  "16" 16px,
+  "20" 20px,
+  "24" 24px,
+  "28" 28px,
+  "32" 32px,
+  "40" 40px;
+
+@each $i in $font-sizes {
+  .text-fs-#{nth($i, 1)} {
+    font-size: nth($i, 2)!important;
+  }
+}

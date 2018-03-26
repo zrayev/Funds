@@ -1,0 +1,16 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Font Variables
+$muli: 'Muli', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+  font-family: $muli;
+}
+
+.navbar-brand,
+.footer-copyright {
+  font-family: $open-sans;
+}

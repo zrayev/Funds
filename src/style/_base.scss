@@ -1,0 +1,10 @@
+@import 'normalize';
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+@import 'variables/colors';
+@import 'components/components';
+@import 'components/fonts';
+@import 'mixins/color_clases';
+@import 'mixins/font-sizes';

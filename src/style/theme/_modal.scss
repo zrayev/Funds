@@ -1,0 +1,40 @@
+.modal {
+  .modal-footer,
+  .modal-header {
+    border: 0;
+  }
+
+  .modal-content {
+    border-radius: 16px;
+  }
+}
+
+.add-address-modal,
+.about-fee-modal {
+  .modal-dialog {
+    top: 35%;
+    transform: translateY(-50%) !important;
+  }
+
+  .modal-header {
+    height: 0;
+  }
+}
+
+.manage-address-modal {
+  .modal-dialog {
+    max-width: 600px;
+  }
+
+  .btn-basket {
+    margin-top: -10px;
+  }
+
+  tr:first-child th {
+    border-top: 0;
+  }
+
+  form .btn {
+    border: 1px solid $color-border-grey-light;
+  }
+}

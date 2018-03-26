@@ -1,0 +1,15 @@
+@import 'base';
+
+//Page
+@import "theme/page--funds";
+
+//Blocks
+@import 'theme/block--header-region';
+@import 'theme/block--currencies-items';
+@import 'theme/block--details';
+@import 'theme/block--deposit-container';
+@import 'theme/block--withdraw-container';
+@import 'theme/block--footer-region';
+
+//Modal
+@import 'theme/modal';

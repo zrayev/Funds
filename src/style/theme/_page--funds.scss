@@ -1,0 +1,11 @@
+.page--funds {
+  .jumbotron .container > .row:nth-child(2) {
+    border-top: 1px solid $color-border-grey;
+    border-left: 1px solid $color-border-grey;
+    border-bottom: 1px solid $color-border-grey;
+  }
+
+  .block--details-wrapper {
+    border-right: 1px solid $color-border-grey;
+  }
+}

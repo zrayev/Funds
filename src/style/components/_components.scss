@@ -1,0 +1,24 @@
+.input-group {
+  input[type="number"],
+  input[type="text"] {
+    text-overflow: ellipsis;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-link {
+  &:hover,
+  &:active {
+    color: $color-green-light !important;
+  }
+}
+
+.active a,
+a:not(.dropdown-toggle):hover,
+a:not(.dropdown-toggle):active {
+  color: $color-green-light !important;
+}

@@ -1,0 +1,46 @@
+.block--currencies-items {
+  border-bottom: 1px solid $color-border-grey;
+
+  table {
+    border-right: 1px solid $color-border-grey;
+  }
+
+  table:first-child tbody td {
+    border: 0;
+  }
+
+  table.selected {
+    background: transparent url(../build/img/bg-selected.png) center 50% no-repeat;
+    background-size: 100%;
+  }
+
+  .logo img {
+    max-height: 50px;
+  }
+
+  .symbol,
+  .balance-locked {
+    color: $color-grey;
+  }
+
+  a {
+    color: $color-green-light;
+  }
+
+  a.active-action {
+    color: $color-olivedrab;
+  }
+
+  p.balance {
+    font-size: 20px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .block--currencies-items {
+    p.balance {
+      font-size: 28px;
+    }
+  }
+}

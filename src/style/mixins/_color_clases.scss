@@ -1,0 +1,15 @@
+$colours:
+  "green-light" #8eca3d,
+  "olivedrab" #5f8b3f,
+  "whitesmoke" #ececec,
+  "lightslategray" #9197a0,
+  "bastille" #3c3d42;
+
+@each $i in $colours {
+  .bg-color-#{nth($i, 1)} {
+    background-color: nth($i, 2)!important;
+  }
+  .text-color-#{nth($i, 1)} {
+    color: nth($i, 2)!important;
+  }
+}

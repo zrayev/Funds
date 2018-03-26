@@ -1,0 +1,35 @@
+.block--header-region {
+  a {
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+    font-size: 23px;
+  }
+}
+
+.header-nav-user-profile {
+  .dropdown-toggle {
+    border-radius: 50px;
+  }
+
+  .dropdown-item img {
+    max-width: 11px;
+  }
+
+  .nav-item.dropdown:hover a,
+  .nav-item.dropdown.show a {
+    background-color: transparent !important;
+  }
+}
+
+// Small devices (landscape phones, 576px and up) to
+// Large devices (desktops, 992px and up)
+@media (min-width: 576px) and (max-width: 992px) {
+  .header-nav-user-profile {
+    .nav-item {
+      width: 50%;
+      left: 25%;
+    }
+  }
+}
